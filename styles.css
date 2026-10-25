@@ -12,3 +12,8 @@ button:focus-visible,input:focus-visible{outline:3px solid #f1d69d;outline-offse
 .notice.ok p{margin:5px 0 0}.hints-panel{border-color:#dfbf7d}.hint p{margin:.35rem 0 .1rem}
 .vote{padding:12px;background:#152331;border-radius:12px}.vote h3{margin-top:0}
 @media(max-width:550px){.story{padding:14px}.buttons button{min-width:100%;}}
+
+/* Control de reinicio para Game Masters */
+.reset-panel { border: 1px solid var(--line, #b6a28b); }
+.reset-panel .buttons { flex-wrap: wrap; }
+.reset-panel .buttons button { min-height: 44px; }
