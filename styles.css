@@ -33,3 +33,7 @@ button:focus-visible,input:focus-visible{outline:3px solid #f1d69d;outline-offse
 .story-table tr:nth-child(even) td{background:#203847}
 .story-table tr:first-child td{color:#f8db9d}
 @media(max-width:550px){.story-table td{padding:9px 5px;font-size:.82rem}}
+/* V7: panel de Game Master y configuración */
+.v7-team,.v7-solution{padding:14px;margin:10px 0;border:1px solid rgba(140,160,180,.3);border-radius:12px;background:rgba(24,38,53,.45)}
+.v7-team h3,.v7-solution h4{margin:0 0 8px}.v7-chip{display:inline-block;padding:5px 9px;border-radius:18px;margin:4px;background:rgba(120,120,120,.18);font-size:.8rem}.v7-chip.v7-ok{background:rgba(40,165,120,.25)}.v7-details{margin:12px 0;border-bottom:1px solid #57606b;padding-bottom:10px}.v7-details summary,.v7-team summary{cursor:pointer;padding:8px 0}.v7-settings{display:grid;gap:10px;margin:14px 0}.v7-settings select{padding:12px;border-radius:8px;background:#162534;color:white;border:1px solid #6a7786}.tiny{padding:5px 8px;font-size:.75rem;width:auto}.line{gap:8px;flex-wrap:wrap}
+.story-table-row{display:flex;gap:5px;margin:2px 0}.story-table-row>span{flex:1;text-align:center;padding:9px 5px;border:1px solid rgba(150,165,180,.35);border-radius:6px;min-width:0}
